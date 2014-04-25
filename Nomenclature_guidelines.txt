@@ -1,0 +1,46 @@
+#########################################################################
+#                                                                       #
+#            GUIDELINES FOR NOMENCLATURE OF CERAPACHYS BIROI            #
+#            GENE ANNOTATIONS                                           #
+#                                                                       #
+#########################################################################
+
+Document version 0.1	11th Nov 2013
+Drafted by the Cerapachys biroi genome nomenclature committee.
+(Peter Oxley, Sean McKenzie and Ingrid Fetter-Pruneda)
+
+This document is a preliminary guide to the best practices for naming of genes identified in the Cerapachys biroi genome. While we hope this guide will be as comprehensive as possible, there will inevitably arise certain cases which do not fit within the guidelines. In those instances, we hope that the choices made as to the best name fit with the spirit of the guidelines, for the convenience and benefit of the scientific community that stands to benefit from this genome. 
+
+1) Preliminary naming of genes
+Gene models can be initially assigned a name based on similarity to other better-annotated genomes, but before sufficient analyses/data are available to determine true orthology and/or gene status. In these instances, the gene name should be prefixed by "Similar to", to demarcate the preliminary nature of the gene assignment. 
+
+Initial homology may be indicated, for example, by reciprocal best BLAST hits (RBBH) for a C. biroi gene with an ab initio (or even homology) predicted sequence. 
+
+Names should, where possible, match the Drosophila melanogaster gene name. Where D. melanogaster does not contain a homolog, the name can be established by best usage within the genomics community, and may draw from human, mouse, honey bee or C. elegans (though this is by no means exhaustive). 
+
+Example 1: A C. biroi gene predicted by homology to the D. melanogaster Actin gene was, through RBBH, suggested to indeed be orthologous to Actin. The name assigned was therefore "Similar to Actin"
+
+Example 2: A C. biroi gene without homology to any gene in D. melanogaster, but with homology to Vaspressin/Oxytocin-like gene was named "Similar to Inotocin", based on the more informative insect-specific name assigned in Tribolium castaneum.
+
+Genes assigned a preliminary name are not assigned a new symbol, but rather retain their Cbir_xxxxx accession number.
+
+
+2) Naming of 'confirmed' genes
+A gene is considered 'confirmed' when it has all of the following:
+	i)   Orthology established through phylogeny
+	ii)  Paralogs excluded through tblastn and exonerate (or equivalent) 
+	     searches of the C. biroi genome.
+	iii) Expression data (such as RNA-seq or qPCR)
+
+This usage is adopted with the understanding that until functional studies are undertaken, all gene function remains merely hypothetical. However, evolutionary orthology and confirmed gene expression will in most instances correctly predict gene function (at least partially).
+
+As for preliminary gene names, confirmed gene names should match their D. melanogaster ortholog, unless such usage is confusing, or no homolog exists.
+
+Naming of genes is accompanied by the assignment of an appropriate gene symbol. Gene symbols should follow the convention adopted by mouse and Drosophila. The symbol is prefixed with "Cbir" immediately followed by the symbol, with only the first letter capitalized. No spaces or punctuation are allowed, with the exception of an underscore or period.
+
+3) Paralogs
+When paralogs exist within the C. biroi genome for which only a single homolog is found in other species, then the gene name should have the suffix "Cbir paralog X" where X is a consecutive series of numbers.
+
+4) New accession numbers
+When new C. biroi genes are annotated, they must be assigned an accession number of the format "Cbir_XXXXX", where XXXXX refers to the next sequential number in the existing accession number series.
+
